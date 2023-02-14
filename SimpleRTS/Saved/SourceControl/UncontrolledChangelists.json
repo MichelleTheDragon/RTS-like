@@ -13,6 +13,11 @@
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/T8/5CREN7X1VPTKO59GU4VKZI.uasset",
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/IMC_Default.uasset",
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Cursor/FX_Cursor.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/Actions/IA_Spawn_Unit_Test.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Characters/Mannequins/Meshes/Character_Blueprint_Unit.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/Actions/IA_Left_Click.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/Actions/IA_Menu_Button.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/Actions/IA_Key1_Button.uasset",
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Megascans/3D_Assets/Chopped_Wood_Pile_rlCaz/Chopped_Wood_Test.uasset"
 			]
 		}
