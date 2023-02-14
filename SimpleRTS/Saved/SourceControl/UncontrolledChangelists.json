@@ -5,7 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Megascans/3D_Assets/Chopped_Wood_Pile_rlCaz/Chopped_Wood_Test.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Megascans/3D_Assets/Chopped_Wood_Pile_rlCaz/MI_Chopped_Wood_Pile_rlCaz_2K.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/CameraPawn.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Blueprints/BP_TopDownController.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/D/LZ/SJAL4IFFKHPHIRBV6IAHXF.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/5/T8/5CREN7X1VPTKO59GU4VKZI.uasset"
 			]
 		}
 	]

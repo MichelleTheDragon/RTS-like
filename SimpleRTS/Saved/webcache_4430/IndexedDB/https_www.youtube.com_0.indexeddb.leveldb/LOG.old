@@ -1,0 +1,6 @@
+2023/02/14-11:05:11.144 1f64 Creating DB C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2023/02/14-11:05:11.159 1f64 Reusing MANIFEST C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Saved/webcache_4430\IndexedDB\https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/14-11:05:23.693 5c94 Level-0 table #5: started
+2023/02/14-11:05:23.700 5c94 Level-0 table #5: 7257 bytes OK
+2023/02/14-11:05:23.706 5c94 Delete type=0 #3
+2023/02/14-11:05:23.706 5c94 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
