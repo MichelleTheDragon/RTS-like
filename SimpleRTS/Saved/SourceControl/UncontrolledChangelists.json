@@ -18,6 +18,20 @@
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/Actions/IA_Left_Click.uasset",
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/Actions/IA_Menu_Button.uasset",
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Input/Actions/IA_Key1_Button.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Blueprints/BP_TopDownGameMode.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/Character_Blueprint_Unit.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/Parent_Character_Blueprint_Unit.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/Unit_style_1.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/Unit_style_2.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/Selected_decal.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/Selected_Decal_MAT.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/RTS_PlayerController.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/6/OI/H4CYGWRMJ49ZI6AS2GNGQY.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/RTS_Selection_Hud.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/RTS_Interface.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/RTS_Marquee_Hud.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/2/YH/C7AZPGSKQXVWQ21UD56EJ8.uasset",
+				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/__ExternalActors__/TopDown/Maps/TopDownMap/0/8R/CUD7IOALBFBIE5RKPA9GT3.uasset",
 				"C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Megascans/3D_Assets/Chopped_Wood_Pile_rlCaz/Chopped_Wood_Test.uasset"
 			]
 		}
