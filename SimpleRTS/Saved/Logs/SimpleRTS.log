@@ -3064,3 +3064,9 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.02.14-15.43.21:120][148]LogPlayLevel: Display: Destroying online subsystem :Context_43
 [2023.02.14-15.43.22:930][175]LogSlate: Window 'Message Log' being destroyed
 [2023.02.14-15.43.22:990][175]LogSlate: Window 'Message Log' being destroyed
+[2023.02.14-17.05.25:519][669]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [3814689ms] waiting for h/w. InstanceID=1
+[2023.02.14-17.05.30:163][669]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13112
+[2023.02.14-17.05.30:175][670]LogAutomationController: Ignoring very large delta of 3816.05 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.02.14-17.05.32:315][676]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{23cc9217-c2c1-4a40-b143-400c19697993}, Name=Speakers (3- HyperX Cloud Flight Wireless Headset)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=2074.28
+[2023.02.14-17.05.32:315][676]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2023.02.14-17.05.32:343][676]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
