@@ -10,6 +10,11 @@
 			"TargetAllowList": [
 				"Editor"
 			]
+		},
+		{
+			"Name": "VaFogOfWar",
+			"Enabled": false,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/cf7668a20dde4ef6937eaab417bf55cf"
 		}
 	]
 }
