@@ -3,6 +3,3 @@
 
 #include "MyBlueprintFunctionLibrary.h"
 
-bool UMyBlueprintFunctionLibrary::CheckCompleted(int task) {
-	return true;
-}

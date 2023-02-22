@@ -13,6 +13,4 @@ UCLASS()
 class SIMPLERTS_API UMyBlueprintFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-		UFUNCTION(BlueprintCallable, category = "RTS Code")
-		static bool CheckCompleted(int task);
 };

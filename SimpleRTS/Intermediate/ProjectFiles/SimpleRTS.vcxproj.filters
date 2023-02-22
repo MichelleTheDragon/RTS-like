@@ -58,19 +58,19 @@
     <Filter Include="Source\SimpleRTS\Private">
       <UniqueIdentifier>{56D34DFF-7441-33F3-AC7E-86D12F5C4949}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\SimpleRTS\Private\MyBlueprintFunctionLibrary.cpp">
+    <ClCompile Include="..\..\Source\SimpleRTS\Private\RTS_Tasks.cpp">
       <Filter>Source\SimpleRTS\Private</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\Source\SimpleRTS\Private\RTS_Tasks.cpp">
+    <ClCompile Include="..\..\Source\SimpleRTS\Private\TriggerColliders.cpp">
       <Filter>Source\SimpleRTS\Private</Filter>
     </ClCompile>
     <Filter Include="Source\SimpleRTS\Public">
       <UniqueIdentifier>{4C6B544C-8A96-3113-9A5C-D64853C3EAEE}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\SimpleRTS\Public\MyBlueprintFunctionLibrary.h">
+    <ClInclude Include="..\..\Source\SimpleRTS\Public\RTS_Tasks.h">
       <Filter>Source\SimpleRTS\Public</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\Source\SimpleRTS\Public\RTS_Tasks.h">
+    <ClInclude Include="..\..\Source\SimpleRTS\Public\TriggerColliders.h">
       <Filter>Source\SimpleRTS\Public</Filter>
     </ClInclude>
   </ItemGroup>
