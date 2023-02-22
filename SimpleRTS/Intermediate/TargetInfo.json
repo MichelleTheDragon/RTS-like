@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "SimpleRTS",
+			"Path": "C:\\Users\\mh\\Documents\\GitHub\\RTS-like\\SimpleRTS\\Source\\SimpleRTS.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "SimpleRTSEditor",
+			"Path": "C:\\Users\\mh\\Documents\\GitHub\\RTS-like\\SimpleRTS\\Source\\SimpleRTSEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

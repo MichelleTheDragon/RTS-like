@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\mh\\Documents\\GitHub\\RTS-like\\SimpleRTS\\Source\\SimpleRTS\\SimpleRTS.Build.cs",
+		"C:\\Users\\mh\\Documents\\GitHub\\RTS-like\\SimpleRTS\\Source\\SimpleRTS.Target.cs",
+		"C:\\Users\\mh\\Documents\\GitHub\\RTS-like\\SimpleRTS\\Source\\SimpleRTSEditor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}
