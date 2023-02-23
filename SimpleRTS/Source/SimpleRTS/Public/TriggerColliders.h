@@ -29,6 +29,19 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "RTS Triggers")
 		bool Triggered;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RTS Triggers")
+		int Box_Width;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RTS Triggers")
+		int Box_Depth;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "RTS Triggers")
+		int Box_Height;
+
+	
+	UFUNCTION(BlueprintCallable, Category = "RTS Triggers")
+		void ChangeBoxSize(int BoxWidth, int BoxDepth, int BoxHeight);
+
 	UFUNCTION(BlueprintCallable, Category = "RTS Triggers")
 		void OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 

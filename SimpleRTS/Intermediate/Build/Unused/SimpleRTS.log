@@ -1,11 +1,6 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" SimpleRTSEditor Win64 Development -Project="C:\Users\mh\Documents\GitHub\RTS-like\SimpleRTS\SimpleRTS.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\mh\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (C:\Users\mh\Documents\GitHub\RTS-like).
-  Invalidating makefile for SimpleRTSEditor (working set of source files changed)
-  Parsing headers for SimpleRTSEditor
-    Running Internal UnrealHeaderTool C:\Users\mh\Documents\GitHub\RTS-like\SimpleRTS\SimpleRTS.uproject C:\Users\mh\Documents\GitHub\RTS-like\SimpleRTS\Intermediate\Build\Win64\SimpleRTSEditor\Development\SimpleRTSEditor.uhtmanifest -WarningsAsErrors -installed
-  Total of 0 written
-  Reflection code generated for SimpleRTSEditor in 1.8767203 seconds
   Building SimpleRTSEditor...
   Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   [Upgrade]
@@ -14,15 +9,21 @@
   [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1;' in SimpleRTSEditor.Target.cs.
   [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
   [Upgrade]
+  [Adaptive Build] Excluded from SimpleRTS unity file: TriggerColliders.cpp
   Determining max actions to execute in parallel (4 physical cores, 8 logical cores)
     Executing up to 4 processes, one per physical core
-  Building 5 actions with 4 processes...
-  [1/5] Compile MyBlueprintFunctionLibrary.gen.cpp
-  [2/5] Compile MyBlueprintFunctionLibrary.cpp
-  [3/5] Link UnrealEditor-SimpleRTS.lib
+  Building 10 actions with 4 processes...
+  [1/10] Compile MyBlueprintFunctionLibrary.cpp
+  [2/10] Compile TriggerColliders.gen.cpp
+  [3/10] Compile MyBlueprintFunctionLibrary.gen.cpp
+  [4/10] Compile SimpleRTS.init.gen.cpp
+  [5/10] Compile RTS_Character_Additions.gen.cpp
+  [6/10] Compile TriggerColliders.cpp
+  [7/10] Compile RTS_Character_Additions.cpp
+  [8/10] Link UnrealEditor-SimpleRTS.lib
      Creating library C:\Users\mh\Documents\GitHub\RTS-like\SimpleRTS\Intermediate\Build\Win64\UnrealEditor\Development\SimpleRTS\UnrealEditor-SimpleRTS.lib and object C:\Users\mh\Documents\GitHub\RTS-like\SimpleRTS\Intermediate\Build\Win64\UnrealEditor\Development\SimpleRTS\UnrealEditor-SimpleRTS.exp
-  [4/5] Link UnrealEditor-SimpleRTS.dll
+  [9/10] Link UnrealEditor-SimpleRTS.dll
      Creating library C:\Users\mh\Documents\GitHub\RTS-like\SimpleRTS\Intermediate\Build\Win64\UnrealEditor\Development\SimpleRTS\UnrealEditor-SimpleRTS.suppressed.lib and object C:\Users\mh\Documents\GitHub\RTS-like\SimpleRTS\Intermediate\Build\Win64\UnrealEditor\Development\SimpleRTS\UnrealEditor-SimpleRTS.suppressed.exp
-  [5/5] WriteMetadata SimpleRTSEditor.target
-  Total time in Parallel executor: 2.52 seconds
-  Total execution time: 7.45 seconds
+  [10/10] WriteMetadata SimpleRTSEditor.target
+  Total time in Parallel executor: 4.97 seconds
+  Total execution time: 5.98 seconds
