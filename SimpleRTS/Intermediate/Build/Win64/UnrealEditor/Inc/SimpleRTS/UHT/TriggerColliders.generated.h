@@ -21,15 +21,13 @@ struct FHitResult;
 #define FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_12_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd); \
-	DECLARE_FUNCTION(execOnOverlapBegin); \
-	DECLARE_FUNCTION(execChangeBoxSize);
+	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
 #define FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnOverlapEnd); \
-	DECLARE_FUNCTION(execOnOverlapBegin); \
-	DECLARE_FUNCTION(execChangeBoxSize);
+	DECLARE_FUNCTION(execOnOverlapBegin);
 
 
 #define FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_12_ACCESSORS

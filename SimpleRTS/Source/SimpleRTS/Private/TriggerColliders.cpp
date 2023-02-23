@@ -35,16 +35,6 @@ void ATriggerColliders::Tick(float DeltaTime)
 
 }
 
-void ATriggerColliders::ChangeBoxSize(int BoxWidth, int BoxDepth, int BoxHeight)
-{
-	/*CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("BoxComponent"));
-	CollisionBox->SetBoxExtent(FVector(32.0f, 32.0f, 32.0f));
-	CollisionBox->SetCollisionProfileName("Trigger");
-	RootComponent = CollisionBox;
-
-	CollisionBox->OnComponentBeginOverlap.AddDynamic(this, &ATriggerColliders::OnOverlapBegin);
-	CollisionBox->OnComponentEndOverlap.AddDynamic(this, &ATriggerColliders::OnOverlapEnd);*/
-}
 
 void ATriggerColliders::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {

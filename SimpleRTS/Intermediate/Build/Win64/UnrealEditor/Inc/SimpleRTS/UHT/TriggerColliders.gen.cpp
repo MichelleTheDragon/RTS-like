@@ -43,66 +43,14 @@ void EmptyLinkFunctionForGeneratedCodeTriggerColliders() {}
 		P_THIS->OnOverlapBegin(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult);
 		P_NATIVE_END;
 	}
-	DEFINE_FUNCTION(ATriggerColliders::execChangeBoxSize)
-	{
-		P_GET_PROPERTY(FIntProperty,Z_Param_BoxWidth);
-		P_GET_PROPERTY(FIntProperty,Z_Param_BoxDepth);
-		P_GET_PROPERTY(FIntProperty,Z_Param_BoxHeight);
-		P_FINISH;
-		P_NATIVE_BEGIN;
-		P_THIS->ChangeBoxSize(Z_Param_BoxWidth,Z_Param_BoxDepth,Z_Param_BoxHeight);
-		P_NATIVE_END;
-	}
 	void ATriggerColliders::StaticRegisterNativesATriggerColliders()
 	{
 		UClass* Class = ATriggerColliders::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
-			{ "ChangeBoxSize", &ATriggerColliders::execChangeBoxSize },
 			{ "OnOverlapBegin", &ATriggerColliders::execOnOverlapBegin },
 			{ "OnOverlapEnd", &ATriggerColliders::execOnOverlapEnd },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics
-	{
-		struct TriggerColliders_eventChangeBoxSize_Parms
-		{
-			int32 BoxWidth;
-			int32 BoxDepth;
-			int32 BoxHeight;
-		};
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_BoxWidth;
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_BoxDepth;
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_BoxHeight;
-		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UECodeGen_Private::FFunctionParams FuncParams;
-	};
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::NewProp_BoxWidth = { "BoxWidth", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(TriggerColliders_eventChangeBoxSize_Parms, BoxWidth), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::NewProp_BoxDepth = { "BoxDepth", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(TriggerColliders_eventChangeBoxSize_Parms, BoxDepth), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::NewProp_BoxHeight = { "BoxHeight", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(TriggerColliders_eventChangeBoxSize_Parms, BoxHeight), METADATA_PARAMS(nullptr, 0) };
-	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::PropPointers[] = {
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::NewProp_BoxWidth,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::NewProp_BoxDepth,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::NewProp_BoxHeight,
-	};
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::Function_MetaDataParams[] = {
-		{ "Category", "RTS Triggers" },
-		{ "ModuleRelativePath", "Public/TriggerColliders.h" },
-	};
-#endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ATriggerColliders, nullptr, "ChangeBoxSize", nullptr, nullptr, sizeof(Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::TriggerColliders_eventChangeBoxSize_Parms), Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ATriggerColliders_OnOverlapBegin_Statics
 	{
@@ -269,17 +217,9 @@ void EmptyLinkFunctionForGeneratedCodeTriggerColliders() {}
 		static void NewProp_Triggered_SetBit(void* Obj);
 		static const UECodeGen_Private::FBoolPropertyParams NewProp_Triggered;
 #if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Box_Width_MetaData[];
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_TriggerNumber_MetaData[];
 #endif
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Box_Width;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Box_Depth_MetaData[];
-#endif
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Box_Depth;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_Box_Height_MetaData[];
-#endif
-		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_Box_Height;
+		static const UECodeGen_Private::FUnsizedIntPropertyParams NewProp_TriggerNumber;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -289,7 +229,6 @@ void EmptyLinkFunctionForGeneratedCodeTriggerColliders() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_SimpleRTS,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ATriggerColliders_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATriggerColliders_ChangeBoxSize, "ChangeBoxSize" }, // 2839223339
 		{ &Z_Construct_UFunction_ATriggerColliders_OnOverlapBegin, "OnOverlapBegin" }, // 4102850829
 		{ &Z_Construct_UFunction_ATriggerColliders_OnOverlapEnd, "OnOverlapEnd" }, // 3453962994
 	};
@@ -319,32 +258,16 @@ void EmptyLinkFunctionForGeneratedCodeTriggerColliders() {}
 	}
 	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Triggered = { "Triggered", nullptr, (EPropertyFlags)0x0010000000020005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(ATriggerColliders), &Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Triggered_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Triggered_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Triggered_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Width_MetaData[] = {
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriggerColliders_Statics::NewProp_TriggerNumber_MetaData[] = {
 		{ "Category", "RTS Triggers" },
 		{ "ModuleRelativePath", "Public/TriggerColliders.h" },
 	};
 #endif
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Width = { "Box_Width", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATriggerColliders, Box_Width), METADATA_PARAMS(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Width_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Width_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Depth_MetaData[] = {
-		{ "Category", "RTS Triggers" },
-		{ "ModuleRelativePath", "Public/TriggerColliders.h" },
-	};
-#endif
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Depth = { "Box_Depth", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATriggerColliders, Box_Depth), METADATA_PARAMS(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Depth_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Depth_MetaData)) };
-#if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Height_MetaData[] = {
-		{ "Category", "RTS Triggers" },
-		{ "ModuleRelativePath", "Public/TriggerColliders.h" },
-	};
-#endif
-	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Height = { "Box_Height", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATriggerColliders, Box_Height), METADATA_PARAMS(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Height_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Height_MetaData)) };
+	const UECodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ATriggerColliders_Statics::NewProp_TriggerNumber = { "TriggerNumber", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATriggerColliders, TriggerNumber), METADATA_PARAMS(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_TriggerNumber_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATriggerColliders_Statics::NewProp_TriggerNumber_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATriggerColliders_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerColliders_Statics::NewProp_CollisionBox,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Triggered,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Width,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Depth,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerColliders_Statics::NewProp_Box_Height,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATriggerColliders_Statics::NewProp_TriggerNumber,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATriggerColliders_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATriggerColliders>::IsAbstract,
@@ -383,9 +306,9 @@ void EmptyLinkFunctionForGeneratedCodeTriggerColliders() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATriggerColliders, ATriggerColliders::StaticClass, TEXT("ATriggerColliders"), &Z_Registration_Info_UClass_ATriggerColliders, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATriggerColliders), 3069944567U) },
+		{ Z_Construct_UClass_ATriggerColliders, ATriggerColliders::StaticClass, TEXT("ATriggerColliders"), &Z_Registration_Info_UClass_ATriggerColliders, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATriggerColliders), 4277901569U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_3086371126(TEXT("/Script/SimpleRTS"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_343696915(TEXT("/Script/SimpleRTS"),
 		Z_CompiledInDeferFile_FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_mh_Documents_GitHub_RTS_like_SimpleRTS_Source_SimpleRTS_Public_TriggerColliders_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
