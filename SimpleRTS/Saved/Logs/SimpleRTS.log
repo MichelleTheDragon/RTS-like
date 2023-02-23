@@ -4248,3 +4248,11 @@ Script Stack (0 frames) :
 [2023.02.23-07.03.02:054][189]SourceControl: Error: Updated 1 path from the index
 [2023.02.23-07.03.02:278][189]SourceControl: rm 'SimpleRTS/Content/Units/TriggerColliders1_Blueprint.uasset'
 [2023.02.23-07.03.02:285][189]LogAssetRegistry: Warning: C:/Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/Units/TriggerColliders1_Blueprint.uasset: package was marked as deleted in editor, but has been modified on disk. It will once again be returned from AssetRegistry queries.
+[2023.02.23-07.03.36:408][436]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.23-07.03.36:511][436]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.02.23-07.03.36:528][436]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/TestWorld
+[2023.02.23-07.03.36:530][436]LogSavePackage: Moving '../../../../../../Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Saved/TestWorld51C829F24D3DC916037924A6A69262C6.tmp' to '../../../../../../Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Maps/TestWorld.umap'
+[2023.02.23-07.03.36:555][436]LogFileHelpers: Saving map 'TestWorld' took 0.092
+[2023.02.23-07.03.36:563][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 565 ms)
+[2023.02.23-07.03.36:572][436]AssetCheck: New page: Asset Save: TestWorld
+[2023.02.23-07.03.36:572][436]LogContentValidation: Display: Validating /Script/Engine.World /Game/TopDown/Maps/TestWorld.TestWorld
