@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\source\\simplerts\\simplerts.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\intermediate\\build\\win64\\simplerts\\shipping\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\intermediate\\build\\win64\\unrealgame\\shipping\\simplerts\\definitions.simplerts.h",
+            "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\source\\simplerts\\simplerts.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

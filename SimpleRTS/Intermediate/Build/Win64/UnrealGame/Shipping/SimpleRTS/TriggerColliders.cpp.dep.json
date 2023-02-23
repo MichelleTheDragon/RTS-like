@@ -1,0 +1,19 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\source\\simplerts\\private\\triggercolliders.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\intermediate\\build\\win64\\simplerts\\shipping\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\intermediate\\build\\win64\\unrealgame\\shipping\\simplerts\\definitions.simplerts.h",
+            "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\source\\simplerts\\public\\triggercolliders.h",
+            "c:\\users\\mh\\documents\\github\\rts-like\\simplerts\\intermediate\\build\\win64\\unrealgame\\inc\\simplerts\\uht\\triggercolliders.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\components\\boxcomponent.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\boxcomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
