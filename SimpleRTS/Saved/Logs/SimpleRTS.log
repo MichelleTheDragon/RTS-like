@@ -4256,3 +4256,20 @@ Script Stack (0 frames) :
 [2023.02.23-07.03.36:563][436]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 565 ms)
 [2023.02.23-07.03.36:572][436]AssetCheck: New page: Asset Save: TestWorld
 [2023.02.23-07.03.36:572][436]LogContentValidation: Display: Validating /Script/Engine.World /Game/TopDown/Maps/TestWorld.TestWorld
+[2023.02.23-07.05.51:653][673]BlueprintLog: New page: Compile TriggerColliders1_Blueprint
+[2023.02.23-07.05.51:729][673]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2023.02.23-07.05.55:099][762]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.23-07.05.55:161][762]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/TriggerColliders1_Blueprint
+[2023.02.23-07.05.55:162][762]LogSavePackage: Moving '../../../../../../Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Saved/TriggerColliders1_Blueprint2F4BB1EA453FC286FA4CD597B41EC436.tmp' to '../../../../../../Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Maps/TriggerColliders1_Blueprint.uasset'
+[2023.02.23-07.05.55:173][762]LogFileHelpers: InternalPromptForCheckoutAndSave took 72 ms (total: 638 ms)
+[2023.02.23-07.05.55:179][762]AssetCheck: New page: Asset Save: TriggerColliders1_Blueprint
+[2023.02.23-07.05.55:179][762]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/TopDown/Maps/TriggerColliders1_Blueprint.TriggerColliders1_Blueprint
+[2023.02.23-07.06.03:676][939]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2023.02.23-07.06.03:835][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.02.23-07.06.03:944][939]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2023.02.23-07.06.03:956][939]LogSavePackage: Moving output files for package: /Game/TopDown/Maps/TestWorld
+[2023.02.23-07.06.03:958][939]LogSavePackage: Moving '../../../../../../Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Saved/TestWorld91A0783743F5AB56EFEAA4A6B4FEE6F5.tmp' to '../../../../../../Users/mh/Documents/GitHub/RTS-like/SimpleRTS/Content/TopDown/Maps/TestWorld.umap'
+[2023.02.23-07.06.03:983][939]LogFileHelpers: Saving map 'TestWorld' took 0.082
+[2023.02.23-07.06.03:993][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 157 ms (total: 796 ms)
+[2023.02.23-07.06.04:000][939]AssetCheck: New page: Asset Save: TestWorld
+[2023.02.23-07.06.04:000][939]LogContentValidation: Display: Validating /Script/Engine.World /Game/TopDown/Maps/TestWorld.TestWorld
